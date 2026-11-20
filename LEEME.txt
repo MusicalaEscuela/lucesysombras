@@ -1,0 +1,39 @@
+MUSICALA · LABORATORIO DE LUCES Y SOMBRAS
+========================================
+
+QUÉ CONTIENE
+- index.html: página principal
+- styles.css: diseño adaptable con paleta institucional Musicala
+- app.js: simulador de iluminación, explorador tonal, reto, evaluación
+- assets/: logotipo horizontal oficial extraído del manual de identidad, referencias visuales de la guía docente y PDF original
+
+CÓMO ABRIRLO
+1. Extrae todo el ZIP, manteniendo las carpetas.
+2. Abre index.html con Chrome, Edge, Firefox o Safari.
+3. No necesita instalación, servidores, librerías ni conexión a Internet.
+
+CÓMO PUBLICARLO
+Copia todos los archivos y la carpeta assets a la raíz de un sitio estático,
+por ejemplo GitHub Pages, Firebase Hosting o el servidor donde publiques tus recursos.
+No es una aplicación de Wix; es un recurso HTML independiente que puede enlazarse
+u hospedarse en un espacio compatible con HTML/CSS/JavaScript.
+
+PRIVACIDAD
+La evaluación conserva solo el último resultado en el navegador
+mediante localStorage.
+
+FUENTES
+- Guía docente: “Luces y sombras en objetos · Pintura al óleo” (3 páginas),
+  aportada por Musicala.
+- Manual de Identidad Visual de Musicala, compartido previamente.
+  Logo horizontal oficial y colores: #220A63, #0C41C4, #680DBF,
+  #5729FF, #CE0071. Tipografía de referencia: Roboto.
+
+OBSERVACIÓN IMPORTANTE
+Las imágenes del documento docente se incluyen como referencias educativas
+proporcionadas para este recurso. Antes de distribuirlas públicamente, Musicala
+debe confirmar que cuenta con los permisos correspondientes cuando aplique.
+La mención de trementina y aceite de linaza sigue la guía docente; su manejo
+y seguridad dependen de las etiquetas, ventilación y supervisión adecuada.
+
+© Musicala · Recurso educativo

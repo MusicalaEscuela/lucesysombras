@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#220A63">
+  <meta name="description" content="Laboratorio interactivo de luces y sombras en objetos. Explora el volumen, los valores tonales y la pintura al óleo con Musicala.">
+  <meta property="og:title" content="Luces y sombras · Laboratorio Musicala">
+  <meta property="og:description" content="Aprende a observar el volumen: explora la luz, construye una escala de grises y pon a prueba tus conocimientos.">
+  <title>Luces y sombras en objetos | Musicala</title>
+  <link rel="icon" type="image/png" href="assets/simbolo-musicala.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <a class="brand" href="#inicio" aria-label="Musicala, ir al inicio"><img src="assets/logo-musicala.png" alt="Musicala" width="761" height="114"></a>
+      <nav class="top-nav" aria-label="Navegación principal">
+        <a href="#aprender">Aprender</a><a href="#laboratorio">Laboratorio</a><a href="#ruta">Paso a paso</a><a href="#retos">Retos</a><a href="#evaluacion">Evaluación</a>
+      </nav>
+      <a class="nav-action" href="#laboratorio">Explorar <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow inverse"><span class="eyebrow-dot"></span> ESTUDIO DE ARTES VISUALES <span class="eyebrow-sep">/</span> RECURSO INTERACTIVO</div>
+          <h1 id="hero-title">La luz revela <em>lo que la forma es.</em></h1>
+          <p>Aprende a mirar los objetos como artista: descubre dónde nace la luz, cómo aparece la sombra y por qué una escala de grises puede crear profundidad.</p>
+          <div class="hero-buttons"><a class="btn btn-primary" href="#laboratorio">Entrar al laboratorio <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="#aprender">Primero, la teoría <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-meta"><span><i aria-hidden="true" class="meta-icon">✦</i> Aprende experimentando</span><span><i aria-hidden="true" class="meta-icon">◷</i> A tu propio ritmo</span><span><i aria-hidden="true" class="meta-icon">◉</i> Guarda tu avance</span></div>
+        </div>
+        <div class="hero-art" aria-label="Ilustración artística de una esfera iluminada">
+          <div class="hero-art-top"><span>ESTUDIO / 001</span><span class="live-dot">LUZ EN ACCIÓN</span></div>
+          <div class="hero-art-figure"><div class="static-glow"></div><div class="demo-sphere"></div><div class="demo-shadow"></div><div class="demo-horizon"></div></div>
+          <div class="hero-art-bottom"><span>FORMA <b>+ LUZ</b> = VOLUMEN</span><span>01 / 05</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-decoration" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro-section section-pad" id="aprender" aria-labelledby="intro-heading">
+      <div class="container">
+        <div class="section-heading intro-head"><div><span class="eyebrow"><span class="eyebrow-dot"></span> 01 / COMPRENDER</span><h2 id="intro-heading">Primero aprende <span class="text-gradient">a observar.</span></h2></div><p>Antes de tomar el pincel, necesitas entender qué le pasa a un objeto cuando recibe luz. Estas son las pistas que debes reconocer.</p></div>
+        <div class="concept-grid">
+          <article class="concept-card"><div class="concept-visual glow-visual"><div class="mini-orb"></div></div><div class="concept-body"><div class="concept-num">01 /</div><h3>Zona iluminada</h3><p>Es la parte del objeto que recibe la luz con mayor intensidad. Allí aparecen los valores más claros y los brillos.</p><span class="concept-pill">Valores claros</span></div></article>
+          <article class="concept-card"><div class="concept-visual own-shadow-visual"><div class="mini-orb"></div></div><div class="concept-body"><div class="concept-num">02 /</div><h3>Sombra propia</h3><p>Es la región menos iluminada del mismo objeto. Los cambios de gris hacen que percibamos su volumen.</p><span class="concept-pill">Valores oscuros</span></div></article>
+          <article class="concept-card"><div class="concept-visual cast-shadow-visual"><div class="mini-orb"></div><div class="mini-shadow"></div></div><div class="concept-body"><div class="concept-num">03 /</div><h3>Sombra proyectada</h3><p>Es la sombra que el objeto produce sobre la mesa o el suelo al bloquear parte de la luz.</p><span class="concept-pill">Relación con el entorno</span></div></article>
+        </div>
+        <div class="takeaway-strip"><div class="takeaway-symbol" aria-hidden="true">✳</div><p><b>Idea fundamental:</b> no pintamos únicamente objetos: representamos cómo la luz se encuentra con sus formas.</p><a href="#laboratorio">Comprobarlo ahora <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="lab-section section-pad" id="laboratorio" aria-labelledby="lab-heading">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow"><span class="eyebrow-dot"></span> 02 / EXPERIMENTAR</span><h2 id="lab-heading">Tu laboratorio <span class="text-gradient">de luz.</span></h2></div><p>Cambia la dirección y la intensidad. Mira cómo se transforma el volumen y hacia dónde se desplaza la sombra proyectada.</p></div>
+        <div class="lab-shell">
+          <div class="lab-stage">
+            <div class="stage-top"><span><span class="stage-dot"></span> SIMULADOR EN TIEMPO REAL</span><span class="stage-badge">VISTA DE ESTUDIO</span></div>
+            <canvas id="lightCanvas" width="760" height="500" role="img" aria-label="Simulación de iluminación y sombra proyectada" aria-describedby="lightSummary"></canvas>
+            <div class="stage-bottom"><span id="lightSummary" aria-live="polite">La luz llega desde la izquierda.</span><span aria-hidden="true">MUSICALA LAB / 01</span></div>
+          </div>
+          <div class="lab-controls">
+            <div><span class="panel-kicker">CONTROLES DEL ESTUDIO</span><h3>Haz que la luz <em>se mueva.</em></h3><p>Compara la sombra con la luz a 25° y a 75°. Mantén la misma dirección e intensidad para observar qué cambia al mover solo la altura.</p></div>
+            <div class="control-box"><div class="control-row"><label for="angleSlider">Dirección de la luz</label><output id="angleOutput" for="angleSlider">−45°</output></div><input id="angleSlider" type="range" min="-75" max="75" step="5" value="-45"><div class="range-labels"><span>← Izquierda</span><span>Derecha →</span></div></div>
+            <div class="control-box"><div class="control-row"><label for="heightSlider">Altura de la luz</label><output id="heightOutput" for="heightSlider">45°</output></div><input id="heightSlider" type="range" min="25" max="75" step="5" value="45" aria-describedby="heightHint"><div class="range-labels"><span>Más baja</span><span>Más alta</span></div><p class="control-hint" id="heightHint">Baja la luz y observa cómo se alarga la sombra.</p></div>
+            <div class="control-box"><div class="control-row"><label for="intensitySlider">Intensidad</label><output id="intensityOutput" for="intensitySlider">75 %</output></div><input id="intensitySlider" type="range" min="20" max="100" step="5" value="75"><div class="range-labels"><span>Suave</span><span>Fuerte</span></div></div>
+            <div class="control-box"><span class="control-label">Objeto que observas</span><div class="segmented" role="group" aria-label="Seleccionar forma"><button type="button" class="shape-btn active" data-shape="sphere" aria-pressed="true">Esfera</button><button type="button" class="shape-btn" data-shape="cylinder" aria-pressed="false">Cilindro</button><button type="button" class="shape-btn" data-shape="cube" aria-pressed="false">Cubo</button></div></div>
+            <label class="switch-row"><input type="checkbox" id="toggleLabels" checked><span class="switch-track" aria-hidden="true"></span><span>Mostrar las zonas de luz y sombra</span></label>
+            <button type="button" class="reset-btn" id="resetLight"><span aria-hidden="true">↻</span> Restaurar simulación</button>
+            <div class="lab-tip"><span aria-hidden="true">✧</span><p><b>Prueba esto:</b> mueve la luz de izquierda a derecha y fíjate en qué sentido se desplaza la sombra sobre la superficie.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="palette-section section-pad" id="grises" aria-labelledby="grises-heading">
+      <div class="container palette-layout">
+        <div class="palette-description"><span class="eyebrow"><span class="eyebrow-dot"></span> 03 / EXPLORAR VALORES</span><h2 id="grises-heading">Entre el blanco y el negro existe <span class="text-gradient">todo un mundo.</span></h2><p>Una escala de grises organiza los valores tonales desde los más claros hasta los más oscuros. Selecciona uno de los diez tonos para estudiarlo.</p><div class="palette-facts"><div><span>01</span><p>Los claros sugieren zonas iluminadas.</p></div><div><span>02</span><p>Los intermedios hacen las transiciones.</p></div><div><span>03</span><p>Los oscuros ayudan a crear profundidad.</p></div></div></div>
+        <div class="palette-explorer"><div class="palette-topline"><span>PALETA TONAL</span><span>10 VALORES</span></div><div class="swatch-grid" id="swatchGrid" role="group" aria-label="Explorar los diez valores tonales"></div><div class="tonal-axis"><span>MÁS LUZ</span><span>MÁS SOMBRA</span></div><div class="selected-tone"><div class="tone-sample" id="toneSample"></div><div class="tone-details"><span>TONO SELECCIONADO</span><strong id="toneName">Valor 05 · Gris medio</strong><p id="toneDescription">Los valores intermedios unen las zonas iluminadas con las zonas en sombra.</p></div><output id="toneNumber">05/10</output></div><div class="palette-advice"><span aria-hidden="true">☼</span> <span>En el ejercicio de la profe, construyes esta escala a un costado del cartón piedra.</span></div></div>
+      </div>
+    </section>
+
+    <section class="workflow-section section-pad" id="ruta" aria-labelledby="ruta-heading">
+      <div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="eyebrow-dot"></span> 04 / LLEVARLO AL PAPEL</span><h2 id="ruta-heading">De la observación <span class="text-gradient">a la pintura.</span></h2></div><p>Observa los valores tonales de objetos reales y usa la escala de grises para representar sus luces, sombras y volumen al óleo sobre cartón piedra.</p></div>
+        <div class="steps">
+          <article class="step-row"><div class="step-index">01<span></span></div><div class="step-text"><div class="step-kicker">ANTES DE PINTAR</div><h3>Prepara tus materiales</h3><p>Organiza pinturas al óleo, pinceles, paleta, recipientes, los medios de pintura indicados por tu docente y el cartón piedra preparado para el ejercicio.</p><p class="step-small">Una mesa ordenada te ayuda a concentrarte en la observación.</p></div><figure class="step-image"><img src="assets/materiales.webp" alt="Materiales organizados sobre una mesa: pinceles, paleta, pinturas y soporte de cartón piedra."><figcaption>Referencia de materiales · Guía docente</figcaption></figure></article>
+          <article class="step-row"><div class="step-index">02<span></span></div><div class="step-text"><div class="step-kicker">CONSTRUYE TU REFERENCIA</div><h3>Elabora la paleta de grises</h3><p>Pinta en un costado del cartón piedra una <a href="#grises">escala de grises</a>, del tono más claro al más oscuro. Tenla a la vista como referencia durante el ejercicio. La guía propone preparar los dos medios, trementina y aceite de linaza, en proporciones iguales: 50 % y 50 %.</p><p class="step-small">La mezcla de medios y las condiciones de uso deben seguir las indicaciones de tu docente y las etiquetas de los productos.</p></div><div class="step-illustration grayscale-step"><div class="gray-stripe" aria-hidden="true"></div><span>CLARO → MEDIO → OSCURO</span></div></article>
+          <article class="step-row"><div class="step-index">03<span></span></div><div class="step-text"><div class="step-kicker">MIRA ANTES DE DIBUJAR</div><h3>Ubica y observa los objetos</h3><p>Coloca objetos sobre una superficie y presta atención a la dirección de la luz. Toma una foto del montaje. Úsala como referencia al pintar para distinguir las zonas iluminadas, las sombras propias y las sombras proyectadas.</p><p class="step-small">Mover la lámpara puede revelar formas que antes no percibías.</p></div><figure class="step-image"><img src="assets/objetos.webp" alt="Dos objetos de vidrio sobre una mesa, dispuestos para observar sus luces, reflejos y sombras."><figcaption>Montaje de observación · Guía docente</figcaption></figure></article>
+          <article class="step-row"><div class="step-index">04<span></span></div><div class="step-text"><div class="step-kicker">DE LO GENERAL AL DETALLE</div><h3>Construye el ejercicio</h3><p>Empieza el boceto con el tono más claro. Aplica después los grises intermedios que más se distinguen en los objetos. Incorpora al final los tonos más oscuros y reserva las zonas de luz.</p><p class="step-small">No persigas el detalle desde la primera pincelada. Busca primero las grandes masas tonales.</p></div><div class="step-illustration process-step"><div class="process-ball ball-one"></div><div class="process-arrow" aria-hidden="true">→</div><div class="process-ball ball-two"></div><div class="process-arrow" aria-hidden="true">→</div><div class="process-ball ball-three"></div><span>BOCETO · MEDIOS TONOS · CONTRASTE</span></div></article>
+          <article class="step-row step-last"><div class="step-index">05<span></span></div><div class="step-text"><div class="step-kicker">AFINA TU MIRADA</div><h3>Encuentra los detalles</h3><p>Revisa la forma, el volumen, las transparencias, los reflejos y el contraste. Compara siempre tu pintura con los objetos reales.</p><p class="step-small">El objetivo no es copiar cada contorno: es transmitir profundidad y volumen.</p></div><div class="step-illustration detail-step"><div class="detail-bubble">✧</div><p>Observa.<br>Compara.<br>Corrige.</p></div></article>
+        </div>
+        <div class="safety-note"><span class="safety-icon" aria-hidden="true">!</span><p><b>Cuida tu espacio de trabajo:</b> la trementina es inflamable y sus vapores pueden ser perjudiciales. Trabaja con ventilación adecuada, evita llamas y fuentes de calor, sigue las etiquetas y usa los materiales con supervisión docente cuando corresponda. Los trapos con aceite de linaza requieren manejo seguro.</p></div>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="referentes" aria-labelledby="gallery-heading"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="eyebrow-dot"></span> 05 / INSPIRARTE</span><h2 id="gallery-heading">Tres materiales, <span class="text-gradient">tres maneras de mirar.</span></h2></div><p>Estos referentes visuales de la guía muestran cómo se comporta la luz en superficies diferentes.</p></div><div class="gallery-grid">
+      <figure class="gallery-card"><div class="gallery-image"><img src="assets/referente-metal.webp" alt="Recipiente de metal brillante con reflejos claros y oscuros."></div><figcaption><span>REFERENTE 01</span><h3>Metal</h3><p>Observa cómo los brillos y reflejos siguen la curvatura del metal y ayudan a definir su volumen.</p></figcaption></figure>
+      <figure class="gallery-card"><div class="gallery-image"><img src="assets/referente-bodegon.webp" alt="Bodegón monocromático de diversos objetos con alto contraste."></div><figcaption><span>REFERENTE 02</span><h3>Contraste</h3><p>Compara los claros y los oscuros del bodegón para ver cómo el contraste separa los objetos y crea profundidad.</p></figcaption></figure>
+      <figure class="gallery-card"><div class="gallery-image"><img src="assets/referente-vidrio.webp" alt="Estudio de un vaso transparente y su sombra proyectada sobre la mesa."></div><figcaption><span>REFERENTE 03</span><h3>Transparencia</h3><p>Distingue los reflejos y las zonas transparentes del vaso de la sombra que proyecta sobre la mesa.</p></figcaption></figure>
+    </div></div></section>
+
+    <section class="challenge-section section-pad" id="retos" aria-labelledby="challenge-heading"><div class="container"><div class="section-heading"><div><span class="eyebrow"><span class="eyebrow-dot"></span> 06 / PRACTICAR</span><h2 id="challenge-heading">Entrena tu <span class="text-gradient">ojo artístico.</span></h2></div><p>Un reto pequeño para aprender algo grande: reconocer el orden de los valores tonales.</p></div><div class="challenge-panel"><div class="challenge-text"><span class="challenge-kicker">MINIRRETO / 01</span><h3>Ordena la luz.</h3><p>Los cinco tonos están desordenados. Selecciona un recuadro y luego otro para intercambiarlos, hasta formar la escala de <b>más claro a más oscuro</b>.</p><div class="challenge-score" id="sortStatus" aria-live="polite">Selecciona dos tonos para intercambiarlos.</div><div class="challenge-actions"><button type="button" class="btn btn-primary" id="checkOrder">Comprobar orden <span aria-hidden="true">✓</span></button><button type="button" class="btn btn-quiet" id="shuffleOrder">Mezclar otra vez <span aria-hidden="true">↻</span></button></div></div><div class="challenge-work"><span class="challenge-work-label">ORDENA ESTAS 5 TARJETAS</span><div id="sortTiles" class="sort-tiles" role="group" aria-label="Tarjetas de valores grises para ordenar"></div><div class="challenge-axis"><span>← MÁS CLARO</span><span>MÁS OSCURO →</span></div><div class="hint-card"><span aria-hidden="true">✦</span><p><b>Pista:</b> los tonos parecen más claros cuando reflejan más luz.</p></div></div></div></div></section>
+
+    <section class="quiz-section section-pad" id="evaluacion" aria-labelledby="quiz-heading"><div class="container quiz-layout"><div class="quiz-intro"><span class="eyebrow inverse"><span class="eyebrow-dot"></span> 07 / PONERTE A PRUEBA</span><h2 id="quiz-heading">¿Qué tanto <em>aprendiste?</em></h2><p>Responde seis preguntas. Cada respuesta tiene una explicación para ayudarte a entender, incluso si te equivocas.</p><div class="quiz-mini-stats"><div><strong>06</strong><span>preguntas</span></div><div><strong>∞</strong><span>intentos</span></div><div><strong>100 %</strong><span>curiosidad</span></div></div></div><div class="quiz-card"><div class="quiz-top"><span id="quizCounter">PREGUNTA 01 / 06</span><span id="quizScore">0 ACIERTOS</span></div><div class="quiz-progress"><div id="quizProgressFill"></div></div><div id="quizQuestionArea" aria-live="polite"></div><div class="quiz-feedback" id="quizFeedback" hidden aria-live="polite"></div><div class="quiz-footer"><span id="quizHelp">Escoge una respuesta.</span><button class="btn btn-primary" type="button" id="quizNext" disabled>Siguiente <span aria-hidden="true">→</span></button></div></div></div></section>
+
+    <section class="closing-section"><div class="container closing-box"><div><span class="eyebrow inverse"><span class="eyebrow-dot"></span> SIGUE EXPLORANDO</span><h2>La próxima obra empieza <em>con otra mirada.</em></h2><p>Vuelve a experimentar, observa otros objetos y lleva lo aprendido a tu propia pintura.</p></div><div class="closing-links"><a class="btn btn-white" href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><img src="assets/logo-musicala.png" width="761" height="114" alt="Musicala"><p>Laboratorio de Artes Visuales · Luces y sombras en objetos</p><span>Hecho para observar, crear y aprender.</span></div></footer>
+  <div id="screenReaderMessage" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
